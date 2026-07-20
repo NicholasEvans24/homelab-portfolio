@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.env
+*.key
+*.pem
+*.p12
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ed25519_*
+
+# Backups and databases
+*.bak
+*.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Docker application data
+data/
+config/
+volumes/
+
+# Editor files
+.vscode/
+.idea/
+
+# System fiels
+.DS_Store
+Thumbs.db
