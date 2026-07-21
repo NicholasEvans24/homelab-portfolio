@@ -1,4 +1,11 @@
-# Application data
+# Secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Application runtime data
 uptime-kuma/data/
 portainer/data/
 
@@ -11,14 +18,11 @@ portainer/data/
 *.log
 logs/
 
-# Secrets and environment files
-.env
-.env.*
-*.key
-*.pem
-secrets/
-
-# Temporary files
+# Temporary and editor files
 *.tmp
 *.swp
 *~
+
+# Operating system files
+.DS_Store
+Thumbs.db
