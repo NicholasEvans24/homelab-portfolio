@@ -1,0 +1,28 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Management:
+  - Portainer:
+      icon: portainer.png
+      href: https://192.168.4.185:9443
+      description: Docker container management
+      server: my-docker
+      container: portainer
+      showStats: true
+
+  - Homepage:
+      icon: homepage.png
+      href: http://192.168.4.185:3000
+      description: Homelab dashboard
+      server: my-docker
+      container: homepage
+      showStats: true
+
+  - Uptime Kuma:
+      icon: uptime-kuma.png
+      href: http://192.168.4.185:3001
+      description: Service availability monitoring
+      server: my-docker
+      container: uptime-kuma
+      showStats: true
